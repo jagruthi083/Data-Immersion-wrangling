@@ -1,0 +1,11 @@
+customer_id,name,email,gender,dob,order_date,city,revenue,customer_age,revenue_category
+customer_id,Anjali,anjali@gmail.com,Female,1999-05-12,2024-01-15,hyderabad,4500,27,Medium
+customer_id,Rahul,rahul@gmail.com,Male,2000-08-20,2024-02-15,mumbai,5200,26,High
+customer_id,Meena,meena@gmail.com,Female,1999-01-01,2024-03-10,delhi,3000,27,Medium
+customer_id,Arjun,arjun@gmail.com,Male,1998-11-02,2024-04-05,bangalore,150000,28,High
+customer_id,Sneha,sneha@gmail.com,Female,2001-02-18,2024-05-22,chennai,3500,25,Medium
+customer_id,Kiran,kiran@gmail.com,Male,1997-07-14,2024-06-10,hyderabad,2800,29,Low
+customer_id,Pooja,pooja@gmail.com,Female,2002-12-25,2024-07-01,delhi,3500,24,Medium
+customer_id,Amit,amit@gmail.com,Male,1996-09-30,2024-08-01,pune,4000,30,Medium
+customer_id,Divya,divya@gmail.com,Female,2003-03-15,2024-09-12,mumbai,10000,23,High
+,,,,,,,,,
