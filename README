@@ -1,1 +1,118 @@
+# 📊 Data Immersion & Wrangling Project
 
+## 📌 Objective
+The objective of this project is to understand, clean, and transform raw data into an analysis-ready dataset.
+
+This project focuses on:
+- Data profiling
+- Data quality assessment
+- Data cleaning
+- Feature engineering
+- Final dataset preparation
+
+---
+
+## 📂 Project Structure
+
+```
+data-wrangling-project/
+│
+├── data/
+│   ├── raw_dataset.csv
+│   └── cleaned_dataset.csv
+│
+├── scripts/
+│   └── cleaning_script.py
+│
+├── data_dictionary.md
+└── README.md
+```
+
+---
+
+## 🔍 Dataset Overview
+
+The dataset contains customer transaction information including:
+
+- Customer details
+- Order dates
+- Revenue data
+- City information
+
+---
+
+## ⚠ Data Issues Identified
+
+- Missing values in `dob` and `revenue`
+- Duplicate records
+- Mixed date formats
+- Inconsistent city formatting
+- Extreme revenue outliers
+
+---
+
+## 🧹 Data Cleaning Steps
+
+1. Removed duplicate records  
+2. Filled missing values  
+3. Standardized date formats  
+4. Cleaned text fields (city formatting)  
+5. Capped revenue outliers  
+6. Created new features:
+   - `customer_age`
+   - `revenue_category`
+
+---
+
+## 🛠 Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 🚀 How to Run the Project
+
+### Step 1: Navigate to scripts folder
+
+```
+cd scripts
+```
+
+### Step 2: Run cleaning script
+
+```
+python cleaning_script.py
+```
+
+After running, `cleaned_dataset.csv` will be generated inside the data folder.
+
+---
+
+## 📈 Output
+
+Final cleaned dataset includes:
+- Standardized date formats
+- No duplicates
+- No missing critical values
+- Additional engineered features
+
+---
+
+## 📚 Learning Outcomes
+
+- Practical data wrangling experience
+- Data quality assessment techniques
+- Feature engineering basics
+- Version control using Git & GitHub
+
+---
+
+## 👩‍💻 Author
+
+Jagruthi  
+Artificial Intelligence & Machine learning 
