@@ -1,0 +1,32 @@
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv("data/raw_dataset.csv")
+
+print("Initial Dataset Shape:", df.shape)
+print("\nMissing Values:\n", df.isnull().sum())
+
+# Remove duplicate rows
+df = df.drop_duplicates()
+
+# Fill missing values
+df["Age"] = df["Age"].fillna(df["Age"].median())
+df["Salary"] = df["Salary"].fillna(df["Salary"].mean())
+df["City"] = df["City"].fillna("Unknown")
+
+df["Age"] = df["Age"].astype(int)
+
+print("\nAfter Cleaning Shape:", df.shape)
+
+# Basic Statistics
+print("\nDataset Statistics:\n")
+print(df.describe())
+
+print("\nAverage Salary:", df["Salary"].mean())
+print("Maximum Salary:", df["Salary"].max())
+print("Minimum Salary:", df["Salary"].min())
+
+# Save cleaned dataset
+df.to_csv("data/cleaned_dataset.csv", index=False)
+
+print("\n✅ Cleaning completed successfully!")
